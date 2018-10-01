@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
 				<li><a href="/publications">Publications</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+				<li><a href="/cv">CV</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+		</nav>
 
+		<div class="container">
 			{{ content }}
+		</div><!-- /.container -->
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:chunjiong.huang@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/chun-jiong">github.com/chun-jiong</a></li>
-					<li>{% include analytics.html %}</li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+		<footer>
+			<ul>
+				<li><a href="mailto:chunjiong.huang@gmail.com" title="Gmail" target="_blank"><img src="../figures/gmail.jpg" height="25"></a></li>
+				<li><a href="https://github.com/chun-jiong" title="Github" target="_blank"><img src="../figures/github_400x400.jpg" height="30"></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

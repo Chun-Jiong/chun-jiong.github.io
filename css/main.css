@@ -1,11 +1,13 @@
 body {
-	font-size: 1.3em;
+	font: 300 20px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+	font-size: 1.1em;
 	color: navy;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+	font-size: 1.2em;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -14,20 +16,21 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+	color:#FF0000;
 }
 h1 {
-    font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.2em;
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 }
 p {
-    font-size: 1.3em;
-    line-height: 1.2em;
+    line-height: 1.0em;
     color: #333;
 }
 footer {
@@ -35,11 +38,31 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.0em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+
+/* set class */
+.profile {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	height: 14em;
+}
+.left {
+	margin-left: 2em;
+	float: left;
+	width: 35;
+}
+.left img {
+	width: 18em;
+}
+.right {
+	margin-left: 22em;
+	width: 35;
 }
